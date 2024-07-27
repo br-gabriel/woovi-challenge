@@ -4,9 +4,9 @@ import { createContext, useState } from "react";
 export const InstallmentContext = createContext();
 
 export default function InstallmentContextProvider({ children }) {
-  const [amount, setAmount] = useState(0);
-  const [firstPayment, setFirstPayment] = useState(0);
-  const [restPayment, setRestPayment] = useState(0);
+  const [amount, setAmount] = useState(15300);
+  const [firstPayment, setFirstPayment] = useState(15300);
+  const [restPayment, setRestPayment] = useState(15300);
   const [cashPayment, setCashPayment] = useState(false);
   const [firstPaymentDone, setFirstPaymentDone] = useState(false);
 
