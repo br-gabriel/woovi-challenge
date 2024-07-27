@@ -5,11 +5,11 @@ import { Box } from "@mui/material";
 
 export default function PagamentoConcluido() {
   return (
-    <Box className="flex flex-col items-center justify-between h-screen">
+    <Box className="flex flex-col items-center justify-between h-screen px-2">
       <Header />
       <Box className="flex flex-col items-center gap-9">
         <FaCircleCheck size={170} color="#03D69D" />
-        <h1 className="font-extrabold text-3xl text-[#4D4D4D]">
+        <h1 className="font-extrabold text-3xl text-[#4D4D4D] text-center">
           Pagamento realizado com sucesso!
         </h1>
       </Box>

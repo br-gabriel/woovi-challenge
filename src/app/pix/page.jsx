@@ -13,7 +13,7 @@ export default function Pix() {
   const { firstPayment, cashPayment } = useContext(InstallmentContext);
 
   return (
-    <Box className="flex flex-col items-center justify-center">
+    <Box className="flex flex-col items-center justify-center px-2">
       <Header />
       <Title
         name={"Gabriel"}

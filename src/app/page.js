@@ -5,6 +5,7 @@ import { Title } from "@/components/Title";
 import { SelectPayment } from "@/components/SelectPayment";
 import { useContext, useEffect } from "react";
 import { InstallmentContext } from "@/contexts/installmentContext";
+import { Box } from "@mui/material";
 
 export default function Home() {
   const {
@@ -16,21 +17,21 @@ export default function Home() {
   } = useContext(InstallmentContext);
 
   useEffect(() => {
-    setAmount(0);
-    setFirstPayment(0);
-    setRestPayment(0);
+    setAmount(15300);
+    setFirstPayment(15300);
+    setRestPayment(15300);
     setCashPayment(false);
     setFirstPaymentDone(false);
   }, []);
 
   return (
-    <>
+    <Box className="px-2">
       <Header />
       <main className="flex flex-col items-center justify-center">
         <Title name={"Gabriel"} text={"como você quer pagar?"} />
         <SelectPayment />
         <Footer />
       </main>
-    </>
+    </Box>
   );
 }
