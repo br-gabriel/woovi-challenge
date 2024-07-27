@@ -1,6 +1,6 @@
 # Teste técnico front-end - Woovi
 Projeto desenvolvido com React.js e Next.js para o teste técnico de desenvolvedor front-end da Woovi.<br><br>
-[Link do projeto](https://teste-tecnico-oak.vercel.app/)
+[Link do projeto](https://woovi-challenge-omega.vercel.app/)
 
 ## Pré-requisitos
 Certifique-se de ter o Node.js instalado na sua máquina.
