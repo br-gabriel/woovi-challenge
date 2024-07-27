@@ -1,4 +1,5 @@
 # Teste técnico front-end - Woovi
+![Animação](https://github.com/user-attachments/assets/fa191e86-35c5-42f2-8d65-57c3e6181710)
 Projeto desenvolvido com React.js e Next.js para o teste técnico de desenvolvedor front-end da Woovi.<br><br>
 [Link do projeto](https://woovi-challenge-omega.vercel.app/)
 
