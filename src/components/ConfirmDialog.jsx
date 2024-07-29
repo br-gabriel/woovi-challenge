@@ -25,9 +25,11 @@ export function ConfirmDialog({ open, handleClose, text }) {
           >
             cancelar
           </button>
-          <button className="bg-[#133A6F] hover:bg-[#234575] text-white p-2 rounded-lg transition ease-in">
-            <Link href="/pix">continuar</Link>
-          </button>
+          <Link href="/pix">
+            <button className="bg-[#133A6F] hover:bg-[#234575] text-white p-2 rounded-lg transition ease-in">
+              continuar
+            </button>
+          </Link>
         </DialogActions>
       </Box>
     </Dialog>
