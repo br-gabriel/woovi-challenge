@@ -66,7 +66,7 @@ export function SelectPayment() {
             Ganhe <span className="font-extrabold">3%</span> de Cashback
           </p>
           <Box
-            className="w-full bg-[#133A6F] text-white normal-case rounded text-left text-base pl-2 py-1"
+            className="w-full bg-[#133A6F] text-white normal-case rounded text-left text-[0.75rem] md:text-base pl-2 py-1 max-h-8"
             style={{
               clipPath: "polygon(100% 0, 97% 50%, 100% 100%, 0 100%, 0 0)",
             }}
@@ -143,7 +143,7 @@ export function SelectPayment() {
 
         <label
           onClick={() => handleOpen("4x R$ 7.725,00", 30900, 7725, false)}
-          className={`max-h-[135px] border-2 px-4 py-8 -mt-[2px] cursor-pointer ${
+          className={`max-h-[125px] border-2 px-4 py-8 -mt-[2px] cursor-pointer ${
             installment === "4"
               ? "bg-[#F4FBF9] border-[#03D69D] z-10"
               : "border-[#E5E5E5]"
@@ -172,7 +172,7 @@ export function SelectPayment() {
             />
           </Box>
           <Box
-            className="w-full bg-[#133A6F] text-white normal-case rounded text-left pl-2 py-1 text-base mt-2"
+            className="w-full bg-[#133A6F] text-white normal-case rounded text-left text-[0.75rem] md:text-base pl-2 py-1 max-h-8 mt-1"
             style={{
               clipPath: "polygon(100% 0, 97% 50%, 100% 100%, 0 100%, 0 0)",
             }}
