@@ -7,12 +7,21 @@ import {
 } from "@mui/material";
 import { IoIosArrowDown } from "react-icons/io";
 import { TimelinePayment } from "./TimelinePayment";
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import { InstallmentContext } from "@/contexts/installmentContext";
 import { currencyFormatter } from "@/utils/currencyFormatter";
+import { getCurrentDateAndTime } from "@/utils/dateUtils";
 
 export function PaymentDetails() {
   const { amount, firstPayment, restPayment, cashPayment } = useContext(InstallmentContext);
+  const [currentDate, setCurrentDate] = useState('');
+  const [futureTime, setFutureTime] = useState('');
+
+  useEffect(() => {
+    const { formattedDate, formattedTime } = getCurrentDateAndTime();
+    setCurrentDate(formattedDate);
+    setFutureTime(formattedTime);
+  }, [])
 
   return (
     <section className="flex flex-col items-center justify-center w-full max-w-md mt-5">
@@ -20,7 +29,7 @@ export function PaymentDetails() {
         Prazo de pagamento:
       </span>
       <span className="font-extrabold text-base text-[#4D4D4D]">
-        15/12/2021 - 08:17
+        {currentDate} - {futureTime}
       </span>
 
       <Box className="border-b-2 w-full py-3 flex">
