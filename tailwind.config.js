@@ -16,8 +16,11 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       "white": "#FFFFFF",
-      "textDark": "#4D4D4D",
-      "textLight": "#B2B2B2",
+      "text": {
+        light: "#AFAFAF",
+        DEFAULT: "#B2B2B2",
+        dark: "#4D4D4D",
+      },
       "gray": "#E5E7Eb",
       "success": {
         light: "#F4FBF9",
