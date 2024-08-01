@@ -45,13 +45,13 @@ export function QrCode() {
   return (
     <>
       <Box className="w-full flex flex-col items-center justify-center mt-2">
-        <Box className="border-2 border-[#03D69D] p-3 mb-4 rounded-[10px]">
+        <Box className="border-2 border-success p-3 mb-4 rounded-[10px]">
           <Image src={qrcode} alt="qr code" />
         </Box>
         <>
           <button
             onClick={handleOpen}
-            className="bg-[#133A6F] hover:bg-[#234575] transition duration-100 ease-in text-white rounded-lg py-1 px-6 font-semibold text-lg flex items-center justify-center gap-2"
+            className="bg-blue hover:bg-blue-light transition duration-100 ease-in text-white rounded-lg py-1 px-6 font-semibold text-lg flex items-center justify-center gap-2"
           >
             Clique para copiar QR CODE
             <IoIosCopy size={20} />

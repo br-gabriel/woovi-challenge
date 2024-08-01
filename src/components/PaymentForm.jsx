@@ -164,7 +164,7 @@ export function PaymentForm() {
       </TextField>
       <button
         type="submit"
-        className="bg-[#133A6F] hover:bg-[#234575] transition duration-100 ease-in text-white rounded-lg py-1 font-semibold text-lg"
+        className="bg-blue hover:bg-blue-light transition duration-100 ease-in text-white rounded-lg py-1 font-semibold text-lg"
       >
         Pagar
       </button>

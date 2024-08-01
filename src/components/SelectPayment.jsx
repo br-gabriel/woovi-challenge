@@ -41,12 +41,12 @@ export function SelectPayment() {
           onClick={() => handleOpen("1x de R$ 30.500,00", 30500, 30500, true)}
           className={`border-2 rounded-lg p-4 cursor-pointer ${
             installment === "1"
-              ? "bg-[#F4FBF9] border-[#03D69D] z-10"
+              ? "bg-success-light border-success z-10"
               : "border-[#E5E5E5]"
           }`}
         >
           <Box className="flex justify-between items-center">
-            <p className="text-2xl w-full text-[#4D4D4D]">
+            <p className="text-2xl w-full text-text-dark">
               <span className="font-extrabold">1x</span> R$ 30.500,00
             </p>
             <Radio
@@ -62,11 +62,11 @@ export function SelectPayment() {
               }}
             />
           </Box>
-          <p className="font-semibold text-[#03D69D] mb-2 -mt-1">
+          <p className="font-semibold text-success mb-2 -mt-1">
             Ganhe <span className="font-extrabold">3%</span> de Cashback
           </p>
           <Box
-            className="w-full bg-[#133A6F] text-white normal-case rounded text-left text-[0.75rem] md:text-base pl-2 py-1 max-h-8"
+            className="w-full bg-blue text-white normal-case rounded text-left text-[0.75rem] md:text-base pl-2 py-1 max-h-8"
             style={{
               clipPath: "polygon(100% 0, 97% 50%, 100% 100%, 0 100%, 0 0)",
             }}
@@ -81,16 +81,16 @@ export function SelectPayment() {
           onClick={() => handleOpen("2x R$ 15.300,00", 30600, 15300, false)}
           className={`max-h-28 border-2 rounded-t-lg px-4 py-8 mt-8 cursor-pointer ${
             installment === "2"
-              ? "bg-[#F4FBF9] border-[#03D69D] z-10"
+              ? "bg-success-light border-success z-10"
               : "border-[#E5E5E5]"
           }`}
         >
           <Box className="flex justify-center items-start">
             <Box className="flex flex-col w-full">
-              <p className="text-2xl w-full text-[#4D4D4D]">
+              <p className="text-2xl w-full text-text-dark">
                 <span className="font-extrabold">2x</span> R$ 15.300,00
               </p>
-              <p className="text-base capitalize text-[#AFAFAF]">
+              <p className="text-base capitalize text-text-light">
                 Total: R$ 30.600,00
               </p>
             </Box>
@@ -113,16 +113,16 @@ export function SelectPayment() {
           onClick={() => handleOpen("3x R$ 10.196,66", 30620, 10196.66, false)}
           className={`max-h-24 border-2 px-4 py-8 -mt-[2px] cursor-pointer ${
             installment === "3"
-              ? "bg-[#F4FBF9] border-[#03D69D] z-10"
+              ? "bg-success-light border-success z-10"
               : "border-[#E5E5E5]"
           }`}
         >
           <Box className="flex justify-center items-start -mt-3">
             <Box className="flex flex-col w-full">
-              <p className="text-2xl w-full text-[#4D4D4D]">
+              <p className="text-2xl w-full text-text-dark">
                 <span className="font-extrabold">3x</span> R$ 10.196,66
               </p>
-              <p className="text-base capitalize text-[#AFAFAF]">
+              <p className="text-base capitalize text-text-light">
                 Total: R$ 30.620,00
               </p>
             </Box>
@@ -145,16 +145,16 @@ export function SelectPayment() {
           onClick={() => handleOpen("4x R$ 7.725,00", 30900, 7725, false)}
           className={`max-h-[125px] border-2 px-4 py-8 -mt-[2px] cursor-pointer ${
             installment === "4"
-              ? "bg-[#F4FBF9] border-[#03D69D] z-10"
+              ? "bg-success-light border-success z-10"
               : "border-[#E5E5E5]"
           }`}
         >
           <Box className="flex justify-center items-start -mt-3">
             <Box className="flex flex-col w-full">
-              <p className="text-2xl w-full text-[#4D4D4D]">
+              <p className="text-2xl w-full text-text-dark">
                 <span className="font-extrabold">4x</span> R$ 7.725,00
               </p>
-              <p className="text-base capitalize text-[#AFAFAF]">
+              <p className="text-base capitalize text-text-light">
                 Total: R$ 30.900,00
               </p>
             </Box>
@@ -172,7 +172,7 @@ export function SelectPayment() {
             />
           </Box>
           <Box
-            className="w-full bg-[#133A6F] text-white normal-case rounded text-left text-[0.75rem] md:text-base pl-2 py-1 max-h-8 mt-1"
+            className="w-full bg-blue text-white normal-case rounded text-left text-[0.75rem] md:text-base pl-2 py-1 max-h-8 mt-1"
             style={{
               clipPath: "polygon(100% 0, 97% 50%, 100% 100%, 0 100%, 0 0)",
             }}
@@ -186,16 +186,16 @@ export function SelectPayment() {
           onClick={() => handleOpen("5x R$ 6.300,00", 31500, 6300, false)}
           className={`max-h-24 border-2 px-4 py-8 -mt-[1px] cursor-pointer ${
             installment === "5"
-              ? "bg-[#F4FBF9] border-[#03D69D] z-10"
+              ? "bg-success-light border-success z-10"
               : "border-[#E5E5E5]"
           }`}
         >
           <Box className="flex justify-center items-start -mt-3">
             <Box className="flex flex-col w-full">
-              <p className="text-2xl w-full text-[#4D4D4D]">
+              <p className="text-2xl w-full text-text-dark">
                 <span className="font-extrabold">5x</span> R$ 6.300,00
               </p>
-              <p className="text-base capitalize text-[#AFAFAF]">
+              <p className="text-base capitalize text-text-light">
                 Total: R$ 31.500,00
               </p>
             </Box>
@@ -218,16 +218,16 @@ export function SelectPayment() {
           onClick={() => handleOpen("6x R$ 5.283,33", 31699.98, 5283.33, false)}
           className={`max-h-24 border-2 px-4 py-8 -mt-[2px] cursor-pointer ${
             installment === "6"
-              ? "bg-[#F4FBF9] border-[#03D69D] z-10"
+              ? "bg-success-light border-success z-10"
               : "border-[#E5E5E5]"
           }`}
         >
           <Box className="flex justify-center items-start -mt-3">
             <Box className="flex flex-col w-full">
-              <p className="text-2xl w-full text-[#4D4D4D]">
+              <p className="text-2xl w-full text-text-dark">
                 <span className="font-extrabold">6x</span> R$ 5.283,33
               </p>
-              <p className="text-base capitalize text-[#AFAFAF]">
+              <p className="text-base capitalize text-text-light">
                 Total: R$ 31.699,98
               </p>
             </Box>
@@ -250,16 +250,16 @@ export function SelectPayment() {
           onClick={() => handleOpen("7x R$ 4.542,85", 31800, 4542.85, false)}
           className={`max-h-24 border-2 px-4 py-8 -mt-[2px] cursor-pointer rounded-b-lg ${
             installment === "7"
-              ? "bg-[#F4FBF9] border-[#03D69D] z-10"
+              ? "bg-success-light border-success z-10"
               : "border-[#E5E5E5]"
           }`}
         >
           <Box className="flex justify-center items-start -mt-3">
             <Box className="flex flex-col w-full">
-              <p className="text-2xl w-full text-[#4D4D4D]">
+              <p className="text-2xl w-full text-text-dark">
                 <span className="font-extrabold">7x</span> R$ 4.542,85
               </p>
-              <p className="text-base capitalize text-[#AFAFAF]">
+              <p className="text-base capitalize text-text-light">
                 Total: R$ 31.800,00
               </p>
             </Box>

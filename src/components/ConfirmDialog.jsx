@@ -21,12 +21,12 @@ export function ConfirmDialog({ open, handleClose, text }) {
         <DialogActions>
           <button
             onClick={handleClose}
-            className="text-[#133A6F] p-2 rounded-lg hover:text-[#234575] transition ease-in"
+            className="text-blue p-2 rounded-lg hover:text-blue-light transition ease-in"
           >
             cancelar
           </button>
           <Link href="/pix">
-            <button className="bg-[#133A6F] hover:bg-[#234575] text-white p-2 rounded-lg transition ease-in">
+            <button className="bg-blue hover:bg-blue-light text-white p-2 rounded-lg transition ease-in">
               continuar
             </button>
           </Link>

@@ -9,7 +9,7 @@ export default function PagamentoConcluido() {
       <Header />
       <Box className="flex flex-col items-center gap-9">
         <FaCircleCheck size={170} color="#03D69D" />
-        <h1 className="font-extrabold text-3xl text-[#4D4D4D] text-center">
+        <h1 className="font-extrabold text-3xl text-text-dark text-center">
           Pagamento realizado com sucesso!
         </h1>
       </Box>
